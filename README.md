@@ -143,6 +143,8 @@ Fiercely loyal. Deadpan robotic humor. No contractions. Maximum 3 sentences. Occ
 - At least 8GB free storage for models
 
 ### Build & Install
+On bootup of fresh OS create user name `jetson`
+
 Place both files in the same directory:
 - `b9_build.sh`
 - `b9_complete_system.py`
