@@ -528,7 +528,7 @@ class VoiceListener:
                     return
             print("[VOICE] Vosk model not found (need am/ graph/ conf/ dirs)")
             print("[VOICE]   scp vosk-model-small-en-us-0.15 "
-                  "cooper@192.168.101.6:/opt/b9robot/vosk-model/")
+                  "jetson@192.168.101.6:/opt/b9robot/vosk-model/")
         except ImportError:
             print("[VOICE] Vosk not installed")
         except Exception as e:
