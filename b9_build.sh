@@ -35,7 +35,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # ─── Config ────────────────────────────────────────────────────────────────────
-B9_USER="cooper"                        # non-root user that owns the robot files
+B9_USER="jetson"                        # non-root user that owns the robot files
 B9_DIR="/opt/b9robot"                   # application directory
 VOSK_DIR="$B9_DIR/vosk-model"           # Vosk model directory
 VOSK_MODEL="vosk-model-small-en-us-0.15"
