@@ -145,14 +145,15 @@ Fiercely loyal. Deadpan robotic humor. No contractions. Maximum 3 sentences. Occ
 ### Build & Install
 On bootup of fresh OS create user name `jetson`
 
-Place both files in the same directory:
-- `b9_build.sh`
-- `b9_complete_system.py`
+Open termanal
 
-```bash
-chmod +x b9_build.sh
-sudo ./b9_build.sh
-```
+- `sudo apt update -y`
+- `sudo apt upgrade -y`
+- `sudo apt install git -y`
+- `git clone https://github.com/thatcooperguy/B9-robot.git`
+- `cd B9-robot`
+- `chmod +x b9_build.sh`
+- `sudo ./b9_build.sh`
 
 The build script (~10-15 minutes) handles everything:
 1. System packages (espeak-ng, ALSA, Python, OpenCV, PortAudio)
